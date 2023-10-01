@@ -109,9 +109,9 @@
             transition-delay: .1s;
   }
   .btn:hover {
-    background-color: #fff;
+    background-color: #ff4d30;
     cursor: pointer;
-    color: #000;
+    color: #fff;
     -webkit-transition: background-color, color 1s;
     transition: background-color, color 1s;
     -webkit-transition-delay: .1s;
@@ -305,6 +305,7 @@
   #navigation .container .menu-container-active ul li {
     padding-top: 4em;
     white-space: nowrap;
+    text-decoration: none;
   }
   #navigation .container .menu-container-active ul li:first-of-type {
     -webkit-animation-name: slideMenu;
@@ -402,6 +403,10 @@
     margin-right: 2.14285714em;
     cursor: pointer;
     z-index: 1000;
+    text-decoration: none !important;
+  }
+  .no-underline {
+    text-decoration: none;
   }
   #navigation .desktop-navbar nav ul li:last-of-type {
     margin-right: 0;

@@ -50,8 +50,8 @@ const Header = () => {
             <div className={!hamburgerClicked ? 'menu-container' : 'menu-container-active'}>
                 <nav>
                     <ul>
-                        <li>HOME</li>
-                        <li>LEND YOUR CAR</li>
+                        <li><Link to='/' className='no-underline'>HOME</Link></li>
+                        <li><Link to='listCar' className='no-underline'>LEND YOUR CAR</Link></li>
                         <li onClick={scrollToPosition} ref={scrollRef}>BOOK A CAR</li>
                     </ul>
                 </nav>
@@ -60,8 +60,8 @@ const Header = () => {
             <div className='desktop-navbar'>
                 <nav>
                     <ul>
-                        <li>HOME</li>
-                        <li >LEND YOUR CAR</li>
+                        <li><Link to='/' className='no-underline'>HOME</Link></li>
+                        <li><Link to='/listcar' className='no-underline'>LEND YOUR CAR</Link></li>
                         <li onClick={scrollToPosition} ref={scrollRef}>BOOK A CAR</li>
                     </ul>
                 </nav>
