@@ -1,0 +1,560 @@
+/* HERO MOBILE STYLING */ 
+/* HERO MOBILE STYLING */ 
+/* HERO MOBILE STYLING */ 
+/* HERO MOBILE STYLING */ 
+
+@media screen and (min-width: 0em) {
+    #hero {
+        padding-bottom: 60px;
+        width: 100%;
+        overflow: hidden;
+    }
+    #hero .blob {
+        display: none;
+    }
+    #hero .container {
+        max-width: 568px;
+        width: 93%;
+        z-index: 100;
+    }
+    #hero .container .hero-content {
+        padding-top: 100px;
+        z-index: 100;
+    }
+    #hero .container .hero-images {
+        display: none;
+    }
+    #hero .container .hero-content h1 {
+        font-size: 3.5em;
+        margin: auto;
+        text-align: center;
+        margin-bottom: 20px;
+        z-index: 100;
+    }
+    #hero .container .hero-content .pre-hero {
+        margin: auto;
+        text-align: center;
+        font-size: 1.2em;
+    }
+    #hero .container .hero-content h1 span {
+        color: #ff4d30;
+    }
+    #hero .container .hero-content .hero-buttons {
+        margin: auto;
+        text-align: center;
+    }
+    #hero .container .hero-content p {
+        margin: auto;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    /* BOOK CAR MOBILE STYLES */
+    /* BOOK CAR MOBILE STYLES */
+    /* BOOK CAR MOBILE STYLES */
+    /* BOOK CAR MOBILE STYLES */
+    /* BOOK CAR MOBILE STYLES */
+
+#book-car {
+    padding-bottom: 100px;
+    position: relative;
+    margin: auto;
+    margin-top: 100px;
+    width: 100%;
+    z-index: 10;
+}   
+.App {
+    background-color: #f8f8f8;
+}
+#book-car .container {
+    width: 85%;
+    margin: auto;
+    box-shadow: 0px 0px 15px -4px rgba(0, 0, 0, 0.26);
+    padding: 50px;
+    border-top: solid 10px #ff4d30;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    min-height: 500px;
+    z-index: 100;
+    background-color: #fff;
+    
+}
+#book-car .container h2 {
+    font-size: 2em;
+    margin-bottom: 30px;
+}
+.input-group .input {
+    display: flex;
+    flex-direction: column;
+}
+ .input-group label {
+    font-size: 1.2em;
+    margin-bottom: 5px;
+}
+ .input-group select {
+    margin-bottom: 20px;
+    border: 1px solid #ccd7e6;
+    border-radius: 3px;
+    color: #ababab;
+    font-family: 'Montserrat',sans-serif;
+    font-size: 0.9em;
+    font-weight: 400;
+    outline: none;
+    padding: 0.9em 0.9em;
+}
+.input-group input {
+    border: 1px solid #ccd7e6;
+    margin-bottom: 20px;
+    color: #878585;
+    outline: none;
+    padding: 1.1em 1.1em;
+}
+
+#book-car .container .car-options .cards .card {
+    width: 90%;
+    margin: 30px auto;
+    box-shadow: 0px 0px 15px -4px rgba(0, 0, 0, 0.26);
+    padding: 15px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+}
+
+#book-car .container .car-options .cards .card li {
+    list-style-type: none;
+}
+
+#book-car .container .car-options .cards .card .main {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+    border-bottom: solid 1px rgb(199, 199, 199);
+    padding-bottom: 10px;
+}
+
+#book-car .container .car-options .cards .card .details {
+    display: flex;
+    justify-content: flex-start;
+    margin: 15px auto;
+}
+#book-car .container .car-options .cards .card .detail p {
+    display: flex;
+    margin-right: 30px;
+}
+
+#book-car .container .car-options .cards .card li button {
+    margin: auto;
+}
+
+#book-car .container .car-options .cards .card img{
+    width: 100%;
+    height: 210px;    
+}
+
+#book-car .container .car-options .cards .card .details {
+    max-height: 16px;
+}
+#book-car .container .car-options .cards .card .details img{
+    max-height: 16px;
+}
+/* PLAN TRIP SECTION MOBILE */
+/* PLAN TRIP SECTION MOBILE */
+/* PLAN TRIP SECTION MOBILE */
+/* PLAN TRIP SECTION MOBILE */
+/* PLAN TRIP SECTION MOBILE */
+
+#plan-trip {
+    width: 100%;
+    position: relative;
+}
+#plan-trip .container  {
+    width: 100%;
+}
+#plan-trip .container span {
+    font-family: 'Montserrat', sans-serif;
+}
+#plan-trip .container h2 {
+    font-size: 2.5em;
+    margin-bottom: 30px;
+}
+#plan-trip .container .three-icons {
+    margin: auto;
+    padding: 20px;
+}
+#plan-trip .container .three-icons .icon {
+    margin: 50px auto;
+    text-align: center;
+}
+#plan-trip .container .three-icons .icon h3, #plan-trip .container .three-icons .icon p {
+    margin: auto;
+}
+#plan-trip .container .three-icons .icon:first-of-type .image {
+    height: 125px;
+    width: 125px;
+    background-color: #ff4c3040;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 110px 60px 90px 35px / 60px 50px 110px 70px;
+}
+#plan-trip .container .three-icons .icon:nth-of-type(2) .image {
+    height: 125px;
+    width: 125px;
+    background-color: #ff4c3040;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 60px 30px 60px 130px / 70px 70px 90px 80px;
+}
+#plan-trip .container .three-icons .icon:nth-of-type(3) .image {
+    height: 125px;
+    width: 125px;
+    background-color: #ff4c3040;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 90px 60px 70px 40px / 100px 80px 60px 40px;
+}
+#plan-trip .container .three-icons .icon img {
+    height: 64px;
+    width: 64px;
+    margin-bottom: 15px;
+}
+#plan-trip .container .three-icons .icon .content h3 {
+    font-size: 1.5em;
+    margin: 10px auto;
+}
+#save-big {
+    width: 100%;
+    background-color: #333333;
+}
+#save-big .container {
+    width: 100%;
+    background-color: #333333;
+    padding: 20px;
+    padding-top: 40px;
+    padding-bottom: 60px;
+}
+#save-big .container h2 {
+    font-size: 3em;
+    color: #f5f5f5;
+    margin: 20px auto;
+}
+#save-big .container p {
+    color: #f5f5f5;
+}
+#save-big .container h2 span {
+    color: #ff4d30;
+}
+#sidebyside {
+    padding: 50px 0;
+  }
+  #sidebyside .blob {
+    display: none;
+  }
+  #sidebyside .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  #sidebyside .container .title span {
+    color: #ff4d30;
+  }
+  #sidebyside .content {
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
+    margin: auto;
+    margin-top: 4.6875em;
+    max-width: 38.1875em;
+  }
+  #sidebyside .content h2 {
+    font-size: 3em;
+    margin-bottom: 0.875em;
+  }
+  #sidebyside .content p {
+    margin-bottom: 1.11111111em;
+  }
+  #sidebyside .content .btn {
+    margin-top: 1.78571429em;
+  }
+  #sidebyside .image-box {
+    display: block;
+    position: relative;
+    margin: auto;
+    width: 300px;
+    height: 400px;
+    font-size: min(1.4vw, 1em);
+  }
+  #sidebyside .image-box:before {
+    content: '';
+    position: absolute;
+    display: block;
+    height: 100%;
+    width: 100%;
+    background: #ff4c3040;
+    opacity: 1;
+    top: 2.5em;
+    left: -2.5em;
+  }
+  #sidebyside .image-box img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  #list-car {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    position: relative;
+    margin: auto;
+    width: 100%;
+    z-index: 10;
+}   
+#list-car .container {
+    width: 85%;
+    margin: auto;
+    box-shadow: 0px 0px 15px -4px rgba(0, 0, 0, 0.26);
+    padding: 50px;
+    border-top: solid 10px #ff4d30;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    min-height: 500px;
+    background-color: #fff;
+    
+}
+  #list-car .container h2 {
+    font-size: 2.5em;
+    margin-bottom: 30px;
+  }
+  #list-car .container p {
+    margin-bottom: 10px;
+  }
+  #list-car .container .input-group {
+    display: flex;
+    flex-direction: column;
+  }
+  input[type="file"] {
+    margin: 20px auto;
+  }
+  .car-success h3 {
+    font-size: 1.5em;
+    margin: 20px auto;
+  }
+
+
+
+}
+
+/* LANDSCAPE MOBILE STYLES */
+/* LANDSCAPE MOBILE STYLES */
+/* LANDSCAPE MOBILE STYLES */
+/* LANDSCAPE MOBILE STYLES */
+/* LANDSCAPE MOBILE STYLES */
+
+@media screen and (min-width: 568px) {
+    .container {
+        max-width: 768px;
+    }
+    #plan-trip .container {
+        max-width: 768px;
+        width: 100%;
+        padding: 50px;
+    }
+}
+
+@media only screen and (min-width: 666px) {
+    #sidebyside {
+      padding: 6.25em 0;
+    }
+
+    #sidebyside .container {
+        max-width: 900px;
+        margin: auto;
+    }
+    #sidebyside .image-box {
+        height: 350px;
+        width: 430px;
+    }
+  }
+
+/* TABLET STYLES */
+/* TABLET STYLES */
+/* TABLET STYLES */
+/* TABLET STYLES */
+/* TABLET STYLES */
+
+@media screen and (min-width: 768px) {
+    .container {
+        max-width: 1024px;
+    }
+    #hero .container {
+        margin-left: 0;
+        max-width: 1024px;
+    }    
+    #hero .blob {
+        display: block;
+        position: absolute;
+        top: 0;
+        right: 0;
+        z-index: 0;
+    }
+    #hero .container .hero-content {
+        margin-left: 0;
+    }
+    #hero .container .hero-content .pre-hero {
+        text-align: left;
+        margin-left: 0;
+    }
+    #hero .container .hero-content h1, #hero .container .hero-content p{
+        text-align: left;
+        margin-left: 0;
+        z-index: 10;
+        width: 60%;
+    }
+    #hero .container .hero-content .hero-buttons{
+        text-align: left;
+        display: flex;
+    }
+    #hero .container .hero-images {
+        display: block;
+    }
+    #hero .container .hero-images .car {
+        position: absolute;
+        top: 100px;
+        left: 400px;
+        height: 600px;
+        width: auto;
+        z-index: -1;
+    }
+    #hero .container .hero-images .car img {
+        height: 75%;
+        width: auto;
+    }
+
+    #book-car .container {
+        margin: auto;
+        text-align: center;
+
+    }
+    #list-car .container {
+        margin: auto;
+        text-align: center;
+    }
+    #list-car .container .input-group {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 20px;
+        max-width: 500px;
+        margin: auto;
+    }
+    .input-group {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 20px;
+        max-width: 500px;
+        margin: auto;
+    }
+
+
+    #plan-trip .container {
+        max-width: 1024px;
+    }
+
+    #plan-trip .container p {
+        width: 60%;
+    }
+
+    #save-big .container h2, #save-big .container p {
+        text-align: center;
+    }
+
+    .car-success p {
+        max-width: 50%;
+        text-align: center;
+        margin: auto;
+    }
+
+
+
+
+}
+
+/* SMALL DESKTOP STYLES */
+/* SMALL DESKTOP STYLES */
+/* SMALL DESKTOP STYLES */
+/* SMALL DESKTOP STYLES */
+/* SMALL DESKTOP STYLES */
+
+
+@media screen and (min-width: 1024px) {
+    .container {
+        max-width: 1300px;
+    }
+    #hero .container {
+        margin: auto;
+    }
+    #hero .container .hero-content p{
+        width: 45%;
+    }
+
+    #book-car .container .car-options .cards  {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    #plan-trip .container .three-icons {
+        display: flex;
+    }
+    #plan-trip .container .three-icons .icon p {
+        width: 80%;
+    }
+
+
+}
+
+/* LARGE DESKTOP */ 
+@media only screen and (min-width: 1300px) {
+    #sidebyside {
+      padding: 9.375em 0;
+    }
+    #sidebyside .container {
+
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: row;
+              flex-direction: row;
+      -webkit-box-pack: justify;
+          -ms-flex-pack: justify;
+              justify-content: space-between;
+      -webkit-box-align: start;
+          -ms-flex-align: start;
+              align-items: flex-start;
+    }
+    #sidebyside .content {
+      margin: 0;
+      width: 60%;
+    }
+    #sidebyside .image-box {
+      margin: 0;
+      height: 400px;
+      width: 500px;
+      margin-right: 10.625em;
+    }
+  }
